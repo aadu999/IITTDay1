@@ -1,0 +1,46 @@
+/* dark bg */
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+/* light h1 */
+h1 {
+  color: rgb(2, 135, 159);
+}
+
+/* table bg in orange */
+table {
+  background-color: rgb(255, 165, 0);
+}
+/* make group1 in pink color bg */
+.group1 {
+  background-color: rgb(255, 192, 203);
+}
+
+.group2 {
+  background-color: rgb(255, 255, 0);
+  color: #000;
+}
+
+.inGroup {
+  background-color: rgb(255, 255, 0);
+  color: #000;
+  display: block;
+  margin: 10px;
+}
+
+.loginForm {
+  background-color: rgb(255, 255, 0);
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  text-align: center;
+}
+
+input,
+button {
+  text-align: center;
+  flex-basis: 30%;
+}
